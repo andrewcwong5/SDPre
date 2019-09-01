@@ -19,5 +19,18 @@ public class BooleanExpressions {
     f = (x >= y);
 
     System.out.println( x + " is LESS THAN " + y + ": " + a );
+    System.out.println( x + " is LESS THAN / EQUAL TO " + y + ": " + b );
+    System.out.println( x + " is EQUAL TO " + y + ": " + c );
+    System.out.println( x + " is NOT EQUAL TO " + y + ": " + d );
+    System.out.println( x + " is GREATER THAN " + y + "; " + e );
+    System.out.println( x + " is GREATER THAN / EQUAL TO " + y + ": " + f );
+    System.out.println();
+
+    System.out.println( !(x < y) + " " + (x >= y) );
+    System.out.println( !(x <= y) + " " + (x > y) );
+    System.out.println( !(x == y) + " " + (x != y) );
+    System.out.println( !(x != y) + " " + (x == y) );
+    System.out.println( !(x > y) + " " + (x <= y) );
+    System.out.println( !(x >= y) + " " + (x < y) );
   }
 }
